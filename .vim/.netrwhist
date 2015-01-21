@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/jbaird/SkyDrive/Documents/Alkermes/DC Office/Lab Configs'
+let g:netrw_dirhist_2='/Users/jbaird/SkyDrive/Documents/Alkermes/DC Office'
+let g:netrw_dirhist_3='/Users/jbaird/SkyDrive/Documents/Alkermes'
+let g:netrw_dirhist_4='/Users/jbaird/SkyDrive/Documents'
+let g:netrw_dirhist_5='/Users/jbaird/SkyDrive'
+let g:netrw_dirhist_6='/Users/jbaird'
+let g:netrw_dirhist_7='/Users/jbaird/python'
+let g:netrw_dirhist_8='/Users/jbaird/SkyDrive/Documents/Alkermes/DC Office/Lab Configs'
+let g:netrw_dirhist_9='/Users/jbaird/.vim/colors'
