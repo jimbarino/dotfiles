@@ -1,3 +1,19 @@
+" Specify a directory for plugins (for Neovim: ~/.local/share/nvim/plugged)
+call plug#begin('~/.vim/plugged')
+
+" Make sure you use single quotes
+
+" Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
+# Plug 'junegunn/vim-easy-align'
+
+" Enhanced javascript highlighting support
+Plug 'pangloss/vim-javascript'
+
+" Code Completion
+Plug 'Valloric/YouCompleteMe'
+
+Plug 'bluz71/vim-moonfly-colors'
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -27,6 +43,9 @@ set cmdheight=1
 
 " A buffer becomes hidden when it is abandoned
 set hid
+
+" enable filetype detection
+filetype plugin indent on
 
 " Configure backspace so it acts as it should act
 set backspace=eol,start,indent
@@ -60,4 +79,7 @@ set noerrorbells
 set novisualbell
 set t_vb=
 set tm=500
+
+"Set font for Macvim
+set guifont=inconsolata:h14
 
